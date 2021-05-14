@@ -1,0 +1,12 @@
+prefix=C:/Users/Saumya Pandey/desktop/minor_project/envminor/Library
+exec_prefix=C:/Users/Saumya Pandey/desktop/minor_project/envminor/Library
+libdir=C:/Users/Saumya Pandey/desktop/minor_project/envminor/Library/lib
+includedir=C:/Users/Saumya Pandey/desktop/minor_project/envminor/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.37
+Requires: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}
